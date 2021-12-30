@@ -1,0 +1,23 @@
+.post {
+    width: 100%;
+    padding: 4rem 15px;
+}
+
+.post-container {
+    display: grid;
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    flex-direction: row-reverse;
+}
+
+@media (min-width: 768px) {
+    .post-container {
+        grid-template-columns: repeat(2, 1fr);
+            
+        
+    }
+}

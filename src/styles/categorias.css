@@ -1,0 +1,40 @@
+.cat-container {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.cat-container__bg {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    overflow-x: scroll;
+    padding: 20px 0;
+}
+
+.cat-container__item {
+    flex-grow: 1;
+}
+
+.cat-container__item a {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    padding: 20px 70px;
+    margin-left: 20px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 2px 2px 4px #dbdbdb;
+    transition: .15s ease-in-out;
+}
+
+.cat-container__item a:hover {
+    background: #000;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .cat-container__bg {
+        overflow: initial;
+    }
+}

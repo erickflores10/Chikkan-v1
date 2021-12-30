@@ -1,0 +1,14 @@
+.row {
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+.card-subtitle {
+    margin-top: 20px;
+}
+
+.card-title a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #3d3d3d;
+}

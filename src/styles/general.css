@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fafafa;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 8;
+}
+
+.btn {
+    background: #F77F1E;
+    border: none;
+}
+
+.btn:hover {
+    background: #cf7022;
+}
+
+.titulo-seccion {
+    max-width: 1200px;
+    margin:  0 auto;
+    padding: 8rem 0 15px 0;
+    border-bottom: 1px solid #dbdbdb;
+    color: #333;
+}
+
+.item-1 .card {
+    flex-direction: initial;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 2em;
+}
+
